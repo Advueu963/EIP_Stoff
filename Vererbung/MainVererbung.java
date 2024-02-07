@@ -20,7 +20,12 @@ public class MainVererbung {
 		r.play(10);
 		System.out.println("DEFEAT");
 		System.out.println("Current player stats: ");
-		System.out.println("Riven: " + Arrays.toString(r.currentStats()));
-		System.out.println("Yasuo: " + Arrays.toString(y.currentStats()));
+		outputCharacter(y);
+        outputCharacter(r);
 	}
+
+    public static void outputCharacter(Character t) {
+        System.out.println("Character Stats: " + Arrays.toString(t.currentStats()));
+    }
+
 }

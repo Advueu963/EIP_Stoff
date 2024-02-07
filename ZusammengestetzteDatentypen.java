@@ -41,6 +41,8 @@ public class ZusammengestetzteDatentypen {
 		}
 		return result;
 	}
+
+
 	public static int[] fillArrayDoWhile(int value) {
 		int[] result = new int[10];
 		int i = 0;

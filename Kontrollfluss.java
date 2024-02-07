@@ -34,10 +34,14 @@ public class Kontrollfluss {
 		default:
 			return x*x + 10*x + 3;
 		}
+
+
+
 	}
 	
 	public static int getFunctionApproxShort(int x) {
 		// just a good to know. Nicht alzu wichtig
+        // <Bedingung> ? <True Case> : <False Case>
 		return x < 5 ? 5*x + 3 : x*x + 10*x + 3;
 	}
 	

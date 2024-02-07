@@ -13,6 +13,11 @@ public class MainGeneric {
 		Huhn h = new Huhn();
 		Rind r = new Rind();
 		Falafel f = new Falafel();
+
+        ProductTypen test;
+        test = (ProductTypen) h;
+
+
 		BurgerLaden<ProductTypen> t = new BurgerLaden<>();
 		
 		t.kochen(h);

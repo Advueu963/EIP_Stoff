@@ -42,6 +42,21 @@ public class MainRekursion {
 		FunktionalInterface functionalInterface2 = z -> System.out.println("Bin richtig gut gelaunt!");
 
 		functionalInterface2.guteLaune(testArray);
+
+        FunktionalRekursiv test = new FunktionalRekursiv() {
+            @Override
+            public int operation(int[] array) {
+                if(array == null)
+                    return -1;
+                return 0;
+            }
+        };
+
+        FunktionalRekursiv test2 = array -> 0;
+
+
+
+
 		
 	}
 	// Rekursive Methoden haben immer den selben Aufbau:
@@ -50,8 +65,8 @@ public class MainRekursion {
 	
 	public static int rekursiveAddition(int[] array) {
 		if(array == null || array.length == 0) { // 1.)
-			return -1;
-		}
+            return 0;
+        }
 		return array[array.length-1] + rekursiveAddition(Arrays.copyOf(array, array.length-1)); // 2.)
 	}
 	
