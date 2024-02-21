@@ -1,4 +1,5 @@
 package StoffZsf;
+import java.util.Arrays;
 import java.util.Random;
 /**
  * LEGENDE:
@@ -15,6 +16,10 @@ public class EigenschaftenAlgo {
 		/*TERMINIERUNG / NICHT TERMINIERUNG*/
 		System.out.println(terminiert(42));
 		//nichtTerminiert();
+        String[] aufgabe = {"A1","A2"};
+        //System.out.println(Arrays.toString(nichtTerminierend(aufgabe)));
+        
+
 		System.out.println("-----");
 		/* DETERMINIERT / NICHT DETERMINIERT*/
 		System.out.println(determiniert(42));
@@ -26,6 +31,19 @@ public class EigenschaftenAlgo {
 		System.out.println("-----");
 
 	}
+
+    public static boolean[] nichtTerminierend(String[] aufgaben) {
+        int aktuelleAufgabe = 0;
+        boolean[] geloest = new boolean[aufgaben.length];
+        while(aktuelleAufgabe < aufgaben.length && !geloest[aktuelleAufgabe]) {
+            System.out.println("PANIK");
+            Random rand = new Random();
+            aktuelleAufgabe = rand.nextInt(aufgaben.length);
+        }
+        return geloest;
+    }
+
+
 	
 	
 	public static int terminiert( int y) {
