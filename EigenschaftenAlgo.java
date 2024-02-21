@@ -33,6 +33,7 @@ public class EigenschaftenAlgo {
 	}
 
     public static boolean[] nichtTerminierend(String[] aufgaben) {
+        // Ist determiniert, deterministisch
         int aktuelleAufgabe = 0;
         boolean[] geloest = new boolean[aufgaben.length];
         while(aktuelleAufgabe < aufgaben.length && !geloest[aktuelleAufgabe]) {
