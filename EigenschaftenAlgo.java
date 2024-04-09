@@ -65,6 +65,7 @@ public class EigenschaftenAlgo {
 		}
 	}
 	public static int nichtDeterminiert(int x) {
+        // deterministisch aber nicht determiniert
 		Random r = new Random();
 		return x + r.nextInt();
 	}
@@ -75,6 +76,8 @@ public class EigenschaftenAlgo {
 		return r.nextInt() + y;
 	}
 	public static int nichtDeterminitisch(int x) {
+        // nicht deterministisch
+        // nicht determiniert
 		Random r = new Random();
 		int y = x * x + 10*x -5;
 		if (y < r.nextInt()) {
@@ -83,6 +86,18 @@ public class EigenschaftenAlgo {
 			return y * (-1);
 		}
 	}
+
+    public static int nichtDeterminitisch2(int x) {
+        // nicht deterministisch
+        // determiniert
+        Random r = new Random();
+        int y = x * x + 10*x -5;
+        if (y < r.nextInt()) {
+            return y;
+        } else {
+            return y;
+        }
+    }
 
 	
 }
