@@ -3,15 +3,7 @@ package StoffZsf.Streams_Ausnahmen;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.ArrayList;
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * 11, <12>
- * */
+
 public class MainStreamException {
 	public static void main(String[] args) {
 		int n = 10;

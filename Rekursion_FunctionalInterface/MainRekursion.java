@@ -3,15 +3,7 @@ package StoffZsf.Rekursion_FunctionalInterface;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * <10>, <11>
- * */
+
 public class MainRekursion {
 	public static void main(String[] args) {
 		int n = 10;

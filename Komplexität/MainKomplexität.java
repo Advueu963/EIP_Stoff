@@ -3,15 +3,6 @@ package StoffZsf.Komplexität;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * <9>
- * */
 public class MainKomplexität {
 	static final int n = 100;
 	public static void main(String[] args) {
@@ -42,10 +33,11 @@ public class MainKomplexität {
 	
 	public static void n2_Komplexität2(int[] array) {
 		int res = 0;
-		for(int i = 0; i < array.length; i++) {
-			for(int j = 0; j < array.length; j ++) {
+		// n = array.length
+		for(int i = 0; i < array.length; i++) { // O(n)
+			for(int j = 0; j < array.length; j ++) { // O(n)
 				res += array[i]*array[j];
-				for(int k = 0; k < 2; k++) {
+				for(int k = 0; k < 2; k++) { // O(1)
 					System.out.println("Denken...");
 				}
 			}

@@ -1,14 +1,5 @@
 package StoffZsf.DynamischeDatenstrukturen;
 
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * <9>,<10>
- * */
 
 public class MainDynamic {
 	public static void main(String[] args) {

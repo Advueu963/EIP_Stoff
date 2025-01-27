@@ -1,13 +1,4 @@
 package StoffZsf;
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * 3,4
- * */
 
 public class Kontrollfluss {
 	public static void main(String[] args) {

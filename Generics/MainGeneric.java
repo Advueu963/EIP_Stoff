@@ -1,13 +1,4 @@
 package StoffZsf.Generics;
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * <11> 
- * */
 public class MainGeneric {
 	public static void main(String[] args) {
 		Huhn h = new Huhn();

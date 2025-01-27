@@ -1,15 +1,7 @@
 package StoffZsf;
 import java.util.Arrays;
 import java.util.Random;
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * (1), <2>
- * */
+
 public class EigenschaftenAlgo {
 	public static void main(String[] args) {
 		System.out.println("-----");

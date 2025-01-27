@@ -1,15 +1,7 @@
 package StoffZsf;
 
 import java.util.Arrays;
-/**
- * LEGENDE:
- * (Nummer) <=> nur bedingt wichtig für diesen Themenblock
- * Nummer <=> wichtig für diesen Themenblock
- * <Nummer> <=> Sehr wichtig für diesen Themenblock
- * 
- * ÜBUNGSBLÄTTER:
- * <4> 
- * */
+
 public class ZusammengestetzteDatentypen {
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(fillArray(10)));
